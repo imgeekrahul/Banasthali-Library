@@ -1,0 +1,265 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+    
+    <!------style slidder-------->
+    
+    
+     <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+    </style>
+    
+    <!---------------------------->
+    
+<body>
+
+    <!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+  <a class="navbar-brand" href="home.html">
+      <form class="form-inline">
+    <img src="logo.png" width="70" height="70" class="d-inline-block align-top" alt="">
+          &nbsp;&nbsp;  <h3>Banasthali Research Library</h3> 
+       </form>
+    </a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="#"><i class="fa fa-sign-in" style="font-size:20px; color: black;">&nbsp;Login</i></a>
+  </li>
+  <li class="nav-item">
+      <a class="nav-link" href="signup.html"><i class="fa fa-users" style="font-size:20px;  color: black;">Sign Up</i></a>
+  </li>
+    </ul>
+    </nav> 
+    <!---------------------->
+          
+           <!----Menu-------->
+    
+    <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>|
+  <li class="nav-item">
+    <a class="nav-link" href="#">Content Writing</a>
+  </li>|
+   <li class="nav-item">
+    <a class="nav-link" href="#">Upload Documents</a>
+  </li>|
+  <li class="nav-item">
+    <a class="nav-link" href="#">Search</a>
+  </li>|
+  <li class="nav-item">
+    <a class="nav-link" href="#">Delete</a>
+  </li>|
+  <li class="nav-item">
+    <a class="nav-link" href="AllStatus.html">All Report</a>
+  </li>
+        <li class="nav-item">
+    <a class="nav-link" href="#">Logout</a>
+  </li>
+</ul>
+<!---------------------->
+          
+<!--------------------------------->
+    <hr width="70%">
+    <!---------------Image--------------->
+    
+    <center>
+         <h2>Content Writing</h2>
+    </center>
+    <center>
+        
+       
+        <form action="UserContentQuery.php">
+            
+              <div class="row">
+      <div class="col">
+        <label for="nameField" class="col-xs-2">Name</label>
+      <input type="text" class="form-control" placeholder="Username">
+    </div>
+    <div class="col">
+        <label for="nameField" class="col-xs-2">ID</label>
+      <input type="text" class="form-control" placeholder="UserId">
+    </div>
+      <div class="col">
+          <label for="nameField" class="col-xs-2">Research Area</label>
+      <select class="form-control form-control-lg">
+          <option>------select------</option>
+  <option>Artificial Intelligance</option>
+          <option>Big Data</option>
+          <option>Cloud Computing</option>
+          <option>Machine Learning</option>
+      </select>
+          </div>
+      <div class="col">
+          <label for="nameField" class="col-xs-2">Status</label>
+      <select class="form-control form-control-lg">
+          <option>------select------</option>
+  <option>Active</option>
+          <option>Completed</option>
+      </select>
+          </div>
+      <div class="col">
+          <label for="nameField" class="col-xs-2">Title</label>
+      <input type="text" class="form-control" placeholder="Title">
+    </div>
+      <div class="col">
+          <label for="nameField" class="col-xs-2">Guide</label>
+      <input type="text" class="form-control" placeholder="Guide">
+    </div>
+      </div>
+            <br>
+       <div class="row">
+    <div class="col">
+      <div class="col-sm-10">
+      <div class="form-group purple-border">
+  <label for="nameField" class="col-xs-2">Content</label>
+  <textarea class="form-control" id="Content" rows="6"></textarea>
+</div>
+           </div>
+           </div>
+            </div>
+<div class="form-group row">
+        <div class="col-sm-8 offset-sm-2"> 
+    <button type="submit" class="btn btn-primary">submit</button>
+    </div>
+        </div> 
+     
+        </form>
+                   
+    </center>
+        
+  <!--  
+ <div class="row">
+        <div class="col-xs-6">
+            
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="nameField" class="col-xs-2">Name</label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="nameField" placeholder="Your Name" />
+                  
+              </div>
+                <label for="emailField" class="col-xs-1">UserId</label>
+              <div class="col-xs-4">
+                <input type="email" class="form-control" id="emailField" placeholder="Enter UserId" />
+            </div>
+          
+            <div class="form-group">
+              <label for="emailField" class="col-xs-2">UserId</label>
+              <div class="col-xs-4">
+                <input type="email" class="form-control" id="emailField" placeholder="Enter UserId" />
+              </div>
+            </div>
+          
+            <div class="form-group col-sm-4">
+    <h4><label for="inputState">Research area:</label></h4>
+    <select id="inputState" class="form-control" required>
+    <option>---Select---</option>
+        <option>Machine Learning</option>
+        <option>Cloud Computing</option>
+        <option>Big Data</option>
+        <option>Artificial Intelligence</option>
+     </select>
+        <div class="invalid">Please select Research Paper</div>
+    </div>
+              
+            <div class="form-group col-sm-4">
+    <h4><label for="inputState">Status:</label></h4>
+    <select id="inputState" class="form-control" required>
+    <option>---Select---</option>
+        <option>Active</option>
+        <option>Completed</option>
+        
+     </select>
+        <div class="invalid">Please select</div>
+    </div>
+              
+    <div class="form-group">
+              <label for="Title" class="col-xs-2">Title</label>
+              <div class="col-xs-4">
+                <input type="email" class="form-control" id="Title" placeholder="Enter Title" />
+              </div>
+            </div>   
+              <div class="form-group">
+              <label for="Guide" class="col-xs-2">Guide</label>
+              <div class="col-xs-4">
+                <input type="Guide" class="form-control" id="Guide" placeholder="Enter Guide" />
+              </div>
+            </div>
+              
+            <div class="form-group">
+              <label for="descField" class="col-xs-2">Description</label>
+              <div class="col-xs-4">
+                <textarea type="text" class="form-control" id="descField" placeholder="Your Description "></textarea>
+              </div>
+            </div>
+              
+            <div class="col-xs-10 col-xs-offset-2">
+              <button type="submit" class="btn btn-primary">Submit</button> <button type="reset" class="btn btn-default">Reset</button>
+            </div>
+            
+              </div>
+          </form>
+                
+        </div>
+      </div>  -->
+     
+    
+     <!------------footer check--------------->
+    
+    <div class="shadow-none p-5 mb-5 bg-dark rounded"></div>
+    <div style="margin-bottom: 30px; ">
+     <center> All RIGHT RESERVED &copy; BANASTHALI VIDYAPITH</center>
+    </div>
+    <!--------------------------------------->
+    
+    
+    <!---------------footer table------------>
+    
+    <!-- <table class="table table-borderless table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table> -->
+    
+    <!---------------------------------------->
+    
+</body>
+</html>
+    
