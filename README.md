@@ -1,2 +1,3 @@
 # Banasthali Library
 Researchers Paper : Where the Professors of India's top Girl's college namely "BANASTHALI VIDYAPITH" has been assinged to upload their Research Papers and take help in their research from other researcher's paper. This is a final year project namely "Banasthali Library" done by a Developer Shikha Kumari under me(Rahul Ranjan: Developer at Innovation Technology) and mentor Mr. Amit Kumar Das(Director of Innovation Technology, Ranchi). Language implemented to this project is PHP followed by HTML, CSS, JS, Bootstrap. and some server related logics such as Live chats etc.
+Ping me up for Databases.
